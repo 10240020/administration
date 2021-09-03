@@ -1,0 +1,70 @@
+.login
+    height: 100%
+    position: relative
+    .loginBoxBorder
+        background: #C98BD2
+        width: 100%
+        height: 100%
+        display: flex
+        align-items: center
+        justify-content: center
+        .bcak
+            max-width: 85rem
+            margin: 0 auto
+            z-index: 1
+            .LoginBoxCenter
+                width: 100%
+                height: 100%
+                background: white
+                height: 80vh
+                box-shadow: 0 0 10px rgba(0,0,0,.16)
+                border-radius: 1rem
+                .loginBox
+                    display: flex
+                    justify-content: space-between
+                    align-items: center
+                    padding: 1.4rem 2rem
+                    border-bottom: 1px solid #eee
+                    .loginText
+                        span
+                            font-family: PingFang SC
+                            font-size: 1.2rem
+                            font-weight: bold
+                            color: #0FAE90
+                            padding-bottom: .5rem
+                            border-bottom: 2px solid #0FAE90
+                    .loginIcon
+                        display: flex
+                        align-items: center
+                        span
+                            font-family: PingFang SC
+                            cursor: pointer
+                            font-size: 1.1rem
+                            display: flex
+                            align-items: center
+                            i
+                                transition-duration: .4s
+                                font-size: 1.2rem
+                        span:hover i
+                            transform: translateX(.2rem)
+                    
+.PositionBack
+    position: absolute
+    top: 40%
+    left: 50%
+    transform: translate(-50%,-50%)
+    color: white
+    text-transform: uppercase
+    font-size: 9rem
+    white-space: nowrap
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    text-align: center
+    opacity: .4
+    i
+        font-style: normal
+    i:nth-child(2)
+        font-size: 8rem
